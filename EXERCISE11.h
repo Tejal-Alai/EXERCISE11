@@ -26,3 +26,4 @@ public:
 	static void commandAndSystemVariable();
 	DECLARE_MESSAGE_MAP()
 };
+static int AcRxEntryPoint(AcRx::AppMsgCode Msg, void* pkt);
